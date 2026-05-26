@@ -1,0 +1,193 @@
+version: 1
+generated_at: '2026-05-26T04:45:47.290040+00:00'
+generated_by: tend/0.2.0
+config:
+  sensitivity: balanced
+  lookback_days: 180
+paths:
+  /.github/workflows/:
+  - handle: svlandeg
+    strength: moderate
+    commits: 4
+    last_touched: '2026-05-18'
+  /docs/de/docs/:
+  - handle: tiangolo
+    strength: moderate
+    commits: 21
+    last_touched: '2026-05-19'
+  /docs/en/:
+  - handle: tiangolo
+    strength: strong
+    commits: 23
+    last_touched: '2026-05-22'
+  /docs/en/data/:
+  - handle: tiangolo
+    strength: strong
+    commits: 39
+    last_touched: '2026-05-15'
+  /docs/es/docs/:
+  - handle: tiangolo
+    strength: strong
+    commits: 28
+    last_touched: '2026-05-19'
+  /docs/fr/docs/:
+  - handle: yuriimotov
+    strength: moderate
+    commits: 13
+    last_touched: '2026-05-18'
+  - handle: tiangolo
+    strength: moderate
+    commits: 21
+    last_touched: '2026-05-19'
+  /docs/ja/docs/:
+  - handle: tiangolo
+    strength: moderate
+    commits: 23
+    last_touched: '2026-05-19'
+  - handle: yuriimotov
+    strength: suggestive
+    commits: 16
+    last_touched: '2026-05-18'
+  /docs/ko/docs/:
+  - handle: tiangolo
+    strength: strong
+    commits: 27
+    last_touched: '2026-05-19'
+  /docs/pt/docs/:
+  - handle: tiangolo
+    strength: strong
+    commits: 24
+    last_touched: '2026-05-19'
+  /docs/ru/docs/:
+  - handle: tiangolo
+    strength: moderate
+    commits: 21
+    last_touched: '2026-05-19'
+  /docs/tr/docs/:
+  - handle: tiangolo
+    strength: strong
+    commits: 27
+    last_touched: '2026-05-19'
+  /docs/uk/docs/:
+  - handle: yuriimotov
+    strength: moderate
+    commits: 18
+    last_touched: '2026-05-18'
+  - handle: tiangolo
+    strength: moderate
+    commits: 20
+    last_touched: '2026-05-19'
+  /docs/zh-hant/docs/:
+  - handle: tiangolo
+    strength: strong
+    commits: 21
+    last_touched: '2026-05-19'
+  /docs/zh/docs/:
+  - handle: tiangolo
+    strength: moderate
+    commits: 28
+    last_touched: '2026-05-19'
+  /docs_src/:
+  - handle: tiangolo
+    strength: suggestive
+    commits: 303
+    last_touched: '2026-02-22'
+  /fastapi/:
+  - handle: tiangolo
+    strength: strong
+    commits: 114
+    last_touched: '2026-05-23'
+  /fastapi/_compat/:
+  - handle: tiangolo
+    strength: suggestive
+    commits: 35
+    last_touched: '2026-02-22'
+  /scripts/:
+  - handle: tiangolo
+    strength: strong
+    commits: 47
+    last_touched: '2026-05-21'
+  /tests/:
+  - handle: tiangolo
+    strength: strong
+    commits: 366
+    last_touched: '2026-05-23'
+  /tests/test_request_params/test_body/:
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 10
+    last_touched: '2025-12-12'
+  - handle: tiangolo
+    strength: suggestive
+    commits: 20
+    last_touched: '2026-02-17'
+  /tests/test_request_params/test_cookie/:
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 7
+    last_touched: '2025-12-12'
+  - handle: tiangolo
+    strength: suggestive
+    commits: 10
+    last_touched: '2026-02-17'
+  /tests/test_request_params/test_file/:
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 10
+    last_touched: '2025-12-12'
+  - handle: tiangolo
+    strength: suggestive
+    commits: 21
+    last_touched: '2026-02-21'
+  /tests/test_request_params/test_form/:
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 10
+    last_touched: '2025-12-12'
+  /tests/test_request_params/test_header/:
+  - handle: tiangolo
+    strength: suggestive
+    commits: 20
+    last_touched: '2026-02-17'
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 9
+    last_touched: '2025-12-12'
+  /tests/test_request_params/test_path/:
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 7
+    last_touched: '2026-02-09'
+  /tests/test_request_params/test_query/:
+  - handle: tiangolo
+    strength: suggestive
+    commits: 20
+    last_touched: '2026-02-17'
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 9
+    last_touched: '2025-12-12'
+  /tests/test_tutorial/:
+  - handle: tiangolo
+    strength: suggestive
+    commits: 99
+    last_touched: '2026-02-23'
+  /tests/test_tutorial/test_body_nested_models/:
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 7
+    last_touched: '2026-02-09'
+  - handle: tiangolo
+    strength: suggestive
+    commits: 8
+    last_touched: '2026-02-08'
+  /tests/test_tutorial/test_python_types/:
+  - handle: YuriiMotov
+    strength: suggestive
+    commits: 15
+    last_touched: '2025-12-26'
+  /tests/test_tutorial/test_settings/:
+  - handle: YuriiMotov
+    strength: moderate
+    commits: 4
+    last_touched: '2026-02-27'

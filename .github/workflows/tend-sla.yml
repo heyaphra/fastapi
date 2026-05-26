@@ -1,0 +1,24 @@
+name: tend sla
+on:
+  workflow_dispatch:
+    inputs:
+      sla-hours:
+        description: 'SLA hours (use 0 to force every open PR into breach for the smoke test)'
+        default: '0'
+
+permissions:
+  contents: read
+  pull-requests: read
+  issues: read
+
+jobs:
+  sla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: heyaphra/tend/actions/report-sla@v0.3.0
+        with:
+          owners-file: .tend/owners.yml
+          sla-hours: ${{ inputs.sla-hours }}
+          security-sla-hours: '24'
+          nudge: 'false'
